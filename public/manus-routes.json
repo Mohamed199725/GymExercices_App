@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home" },
+    { "path": "/training", "title": "Training" },
+    { "path": "/tips", "title": "Tips" },
+    { "path": "/nutrition", "title": "Nutrition" },
+    { "path": "/about", "title": "About" },
+    { "path": "/exercise/:id", "title": "Exercise details" }
+  ]
+}

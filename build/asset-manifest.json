@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e797587c.css",
+    "main.js": "/static/js/main.509ec7c6.js",
+    "static/media/banner.png": "/static/media/banner.5209b5e92a864ca0c615.png",
+    "static/media/gym.png": "/static/media/gym.6e701417c428e2fbc267.png",
+    "static/media/plate-illustration.svg": "/static/media/plate-illustration.e657e298365136abcf77f04dea572b28.svg",
+    "index.html": "/index.html",
+    "static/media/monster-gym-crest.svg": "/static/media/monster-gym-crest.ddb6c3665d411d4f70be8a3039f74b9c.svg",
+    "static/media/monster-gym-logo.svg": "/static/media/monster-gym-logo.c2aeaa14b41eb04634f6887c7ebf1f3d.svg",
+    "main.e797587c.css.map": "/static/css/main.e797587c.css.map",
+    "main.509ec7c6.js.map": "/static/js/main.509ec7c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e797587c.css",
+    "static/js/main.509ec7c6.js"
+  ]
+}

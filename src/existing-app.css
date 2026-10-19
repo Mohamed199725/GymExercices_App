@@ -1,0 +1,78 @@
+#root > .MuiBox-root { width: 100% !important; max-width: 100% !important; margin: 0 auto !important; }
+#main-content .MuiTypography-root { color: var(--ink); font-family: 'DM Sans', Inter, ui-sans-serif, system-ui, sans-serif; }
+#main-content .MuiPaginationItem-root { color: var(--muted); }
+#main-content .MuiPaginationItem-root.Mui-selected { background: var(--lime); color: #10140f; }
+
+.exercise-search-section { margin-top: 68px; padding-top: 42px; border-top: 1px solid var(--line); }
+.search-form { display: flex; gap: 9px; max-width: 790px; margin: 23px 0 10px; padding: 7px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); box-shadow: 0 12px 36px rgba(0, 0, 0, .18); }
+.search-form input { width: 100%; min-width: 0; padding: 0 13px; border: 0; outline: 0; background: transparent; color: var(--ink); font: 500 13px 'DM Sans', sans-serif; }
+.search-form input::placeholder { color: #7e897c; }
+.search-form .button { flex: none; min-height: 46px; }
+.search-message { min-height: 20px; margin: 9px 4px 0; color: var(--muted); font-size: 11px; }
+.bodypart-selector { margin-top: 27px; }
+.bodypart-scroll { position: relative; margin-top: 13px; padding: 6px 0 12px; }
+.react-horizontal-scrolling-menu--wrapper { display: flex; width: 100%; flex-wrap: nowrap; align-items: center; }
+.react-horizontal-scrolling-menu--scroll-container { width: 100%; overflow-x: auto; }
+.bodyPart-card { width: 185px !important; height: 145px !important; gap: 14px !important; padding: 17px !important; border: 1px solid var(--line) !important; border-top: 0 !important; border-radius: 12px !important; background: var(--surface) !important; box-shadow: none !important; }
+.bodyPart-card[style*="border-top"] { border-top: 4px solid var(--lime) !important; }
+.bodyPart-card img { width: 31px !important; height: 31px !important; object-fit: contain; }
+.bodyPart-card .MuiTypography-root { color: var(--ink) !important; font: 700 13px 'Barlow Condensed', sans-serif !important; letter-spacing: .03em; text-transform: uppercase; }
+.right-arrow, .left-arrow { display: grid; width: 36px; height: 36px; flex: none; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); cursor: pointer; }
+.right-arrow img, .left-arrow img { width: 15px; height: 15px; object-fit: contain; }
+
+.bodypart-chip-list { display: flex; width: 100%; gap: 9px; margin-top: 13px; padding: 3px 2px 12px; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-color: var(--lime-dark) transparent; scrollbar-width: thin; }
+.bodypart-chip-list::-webkit-scrollbar { height: 5px; }
+.bodypart-chip-list::-webkit-scrollbar-thumb { border-radius: 99px; background: var(--lime-dark); }
+.bodypart-chip { display: inline-flex; min-height: 49px; flex: 0 0 auto; align-items: center; gap: 9px; padding: 7px 13px 7px 8px; border: 1px solid var(--line); border-radius: 999px; background: #1a211c; color: var(--ink); font: 600 12px 'Space Grotesk', sans-serif; cursor: pointer; transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease; }
+.bodypart-chip:hover { transform: translateY(-1px); border-color: var(--lime); }
+.bodypart-chip:focus-visible { outline: 3px solid rgba(201, 255, 61, .45); outline-offset: 3px; }
+.bodypart-chip.is-active { border-color: var(--lime); background: var(--lime); color: #10140f; box-shadow: 0 4px 18px rgba(201, 255, 61, .14); }
+.bodypart-chip-index { display: grid; width: 32px; height: 32px; flex: none; place-items: center; border-radius: 50%; background: #2b352b; color: #c7d0bc; font: 700 9px 'DM Sans', sans-serif; }
+.bodypart-chip.is-active .bodypart-chip-index { background: rgba(16, 20, 15, .13); color: #10140f; }
+.bodypart-chip-label { text-transform: capitalize; white-space: nowrap; }
+
+.live-results { margin-top: 44px; scroll-margin-top: 108px; }
+.api-exercise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.exercise-card { display: flex; width: 100%; max-width: none; min-height: 0; flex-direction: column; justify-content: flex-start; gap: 11px; overflow: hidden; padding: 11px; border: 1px solid var(--line); border-top: 0; border-radius: 13px 4px 13px 4px; background: var(--surface); box-shadow: 0 10px 34px rgba(0, 0, 0, .16); text-decoration: none; transition: transform .22s ease, box-shadow .22s ease; }
+.exercise-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.exercise-card img { width: 100%; height: 220px; border-radius: 9px; background: #222a23; object-fit: cover; }
+.exercise-card .MuiStack-root { display: flex; flex-wrap: wrap; gap: 7px; padding: 2px 2px 0; }
+.exercise-card .MuiButton-root { min-width: 0; min-height: 27px; margin: 0 !important; padding: 4px 9px; border-radius: 30px; background: rgba(201, 255, 61, .12) !important; color: var(--lime) !important; font: 700 9px 'DM Sans', sans-serif; letter-spacing: .35px; text-transform: capitalize; }
+.exercise-card .MuiTypography-root { margin: 1px 3px 5px !important; padding: 0 !important; color: var(--ink) !important; font: 700 21px/1 'Barlow Condensed', sans-serif !important; letter-spacing: .025em; text-transform: uppercase; }
+.pagination-wrap { display: flex; justify-content: center; margin-top: 28px; }
+.api-fallback { display: flex; align-items: flex-start; gap: 12px; margin-top: 18px; padding: 17px; border: 1px solid rgba(201, 255, 61, .14); border-radius: 10px; background: #1a231c; color: #b2bda9; font-size: 11px; line-height: 1.65; }
+.api-fallback p { margin: 1px 0 0; }
+
+.movement-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; margin-bottom: 45px; }
+.movement-card { min-height: 188px; padding: 20px; border: 1px solid var(--line); border-radius: 13px 4px 13px 4px; background: linear-gradient(145deg, #1e261f, #171d18); transition: transform .22s ease, border-color .22s ease; }
+.movement-card:hover { transform: translateY(-4px); border-color: rgba(201, 255, 61, .42); }
+.movement-card h3 { margin: 24px 0 8px; font: 700 25px/.95 'Barlow Condensed', sans-serif; letter-spacing: .03em; text-transform: uppercase; }
+.movement-card p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); }
+
+#main-content > .MuiBox-root { margin-top: 14px !important; }
+#main-content > .MuiBox-root > .MuiStack-root { display: grid !important; grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr); align-items: start !important; gap: clamp(24px, 5vw, 62px) !important; }
+#main-content > .MuiBox-root > .MuiStack-root > img { width: 100% !important; height: auto !important; max-width: 600px; border: 1px solid var(--line); border-radius: 15px 4px 15px 4px; background: var(--surface); box-shadow: var(--shadow); }
+#main-content .MuiTypography-root span { color: var(--lime) !important; }
+#main-content .MuiButton-root { border-radius: 8px !important; font-weight: 700 !important; }
+#main-content .MuiButton-contained { background: var(--lime) !important; color: #10140f !important; }
+#main-content .MuiButton-outlined { border-color: rgba(201, 255, 61, .58) !important; color: var(--lime) !important; }
+#main-content .MuiPaginationItem-root.Mui-selected { background: var(--lime); color: #10140f; }
+.exercise-video { width: min(100%, 360px) !important; height: auto !important; padding: 11px; border: 1px solid var(--line); border-radius: 12px 4px 12px 4px; background: var(--surface); }
+.exercise-video img { width: 100%; height: 195px; border-radius: 8px; object-fit: cover; }
+
+@media (max-width: 920px) {
+  .api-exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .movement-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exercise-search-section .section-heading { align-items: flex-start; }
+}
+@media (max-width: 700px) {
+  #main-content > .MuiBox-root > .MuiStack-root { grid-template-columns: 1fr; }
+  .search-form { gap: 5px; margin-top: 18px; padding: 6px; }
+  .search-form input { padding-left: 8px; font-size: 11px; }
+  .search-form .button { min-height: 41px; padding: 0 11px; font-size: 11px; }
+  .bodyPart-card { width: 150px !important; height: 125px !important; }
+  .api-exercise-grid, .movement-grid { grid-template-columns: 1fr; }
+  .exercise-card img { height: 230px; }
+  .movement-card { min-height: 165px; }
+}
